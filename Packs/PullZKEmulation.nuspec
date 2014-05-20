@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>PullZKEmulation</id>
+        <version>1.0.0</version>
+        <authors>Ваня</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Создает эмулятор pclcomm</description>
+    </metadata>
+    <files>
+        <file src="..\Source\_output\Release\plcommpro.dll" target="tools\plcommpro.dll" />
+        <file src="..\Source\_output\Release\RGiesecke.DllExport.Metadata.dll" target="tools\RGiesecke.DllExport.Metadata.dll" />
+    </files>
+</package>
